@@ -1,0 +1,7 @@
+name: My First Trick
+on: [push] # Do this every time I push code!
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am a very good DevOps dog!"
